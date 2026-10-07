@@ -240,7 +240,7 @@ Contributions, bug reports, and pull requests are welcome! Please check out [CON
 ## Legal Disclaimer & Responsible Use
 
 > [!WARNING]
-> **Important Legal Notice**: CTFDownloader is created solely for educational purposes, authorized security training, and offline challenge archiving.
+> **Important Legal Notice**: CTFDownloader is created solely for pragmatic purposes, authorized use cases, and offline challenge archiving.
 
 ### 1. No Anonymity — You Are NOT Invisible
 - **This tool does NOT make you anonymous or invisible.** It sends standard HTTP/HTTPS requests directly from your machine.
