@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# Downloaded CTF artifacts & caches
+challenges/
+downloads/
+Extracted Challenges/
+*.part
+*.tmp
+
+# Logs and test outputs
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS and Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
