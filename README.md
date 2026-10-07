@@ -237,9 +237,25 @@ Contributions, bug reports, and pull requests are welcome! Please check out [CON
 
 ---
 
-## Ethics & Disclaimer
+## Legal Disclaimer & Responsible Use
 
-CTFDownloader is built solely for educational purposes, personal archiving, and offline CTF preparation. Only use this tool against CTFd instances where you have explicit permission to participate and download challenge assets. Always adhere to competition rules regarding automated scraping and rate limits.
+> [!WARNING]
+> **Important Legal Notice**: CTFDownloader is created solely for educational purposes, authorized security training, and offline challenge archiving.
+
+### 1. No Anonymity — You Are NOT Invisible
+- **This tool does NOT make you anonymous or invisible.** It sends standard HTTP/HTTPS requests directly from your machine.
+- Your actions are fully logged on the target CTFd server, including your **source IP address**, **timestamps**, **request patterns**, and your **authenticated CTFd user account or API token**.
+- Do not assume this tool conceals automated activity from platform administrators, web application firewalls (WAFs), or intrusion detection systems.
+
+### 2. Prior Organizer Authorization Required
+- **Always verify the competition rules before using this tool.** Many CTF events explicitly prohibit automated scraping, aggressive querying, or automated retrieval of challenge files.
+- You should obtain **explicit authorization from competition organizers** prior to running this script against any active CTFd instance.
+- Always configure respectful rate-limiting delays (`RATE_MIN_DELAY` and `RATE_MAX_DELAY`) to avoid degrading server performance or impacting other competitors.
+
+### 3. Limitation of Liability
+- The authors, contributors, and maintainers of **CTFDownloader** accept **no liability and assume no responsibility** for any misuse, abuse, account bans, competition disqualifications, IP blacklisting, infrastructure downtime, or legal consequences resulting from the use of this software.
+- In accordance with the [MIT License](LICENSE), this software is provided **"AS IS", WITHOUT WARRANTY OF ANY KIND**.
+- You are solely responsible for ensuring that your use of this software complies with all applicable local, national, and international laws, as well as the terms of service and rules of any platform you interact with.
 
 ---
 
